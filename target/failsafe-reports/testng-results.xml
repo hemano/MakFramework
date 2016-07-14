@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="28169" started-at="2016-07-13T15:25:52Z" finished-at="2016-07-13T15:26:21Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="28169" started-at="2016-07-13T15:25:52Z" finished-at="2016-07-13T15:26:21Z">
+      <class name="com.masteringselenium.BasicTestWD">
+        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="instantiateDriverObject" is-config="true" duration-ms="11" started-at="2016-07-13T20:55:52Z" finished-at="2016-07-13T20:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instantiateDriverObject -->
+        <test-method status="PASS" signature="googleButterExample()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="googleButterExample" duration-ms="16481" started-at="2016-07-13T20:55:52Z" finished-at="2016-07-13T20:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleButterExample -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="quitDriver" is-config="true" duration-ms="11" started-at="2016-07-13T20:56:09Z" finished-at="2016-07-13T20:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="googleCheezeExample()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="googleCheezeExample" duration-ms="2874" started-at="2016-07-13T20:56:09Z" finished-at="2016-07-13T20:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleCheezeExample -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="quitDriver" is-config="true" duration-ms="6" started-at="2016-07-13T20:56:12Z" finished-at="2016-07-13T20:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="googleClickHindiExample()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="googleClickHindiExample" duration-ms="4307" started-at="2016-07-13T20:56:12Z" finished-at="2016-07-13T20:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleClickHindiExample -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="quitDriver" is-config="true" duration-ms="6" started-at="2016-07-13T20:56:16Z" finished-at="2016-07-13T20:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="googleMilkExample()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="googleMilkExample" duration-ms="4465" started-at="2016-07-13T20:56:16Z" finished-at="2016-07-13T20:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleMilkExample -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="quitDriver" is-config="true" duration-ms="7" started-at="2016-07-13T20:56:21Z" finished-at="2016-07-13T20:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="closeDriverObjects" is-config="true" duration-ms="85" started-at="2016-07-13T20:56:21Z" finished-at="2016-07-13T20:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverObjects -->
+      </class> <!-- com.masteringselenium.BasicTestWD -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
