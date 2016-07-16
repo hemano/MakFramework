@@ -4,6 +4,7 @@ com/masteringselenium/BasicTestWD$2.class
 com/masteringselenium/config/DriverType$4.class
 com/masteringselenium/BasicTestWD$1.class
 com/masteringselenium/config/DriverSetup.class
+com/masteringselenium/listeners/ScreenShotListener.class
 com/masteringselenium/DriverFactory$1.class
 com/masteringselenium/config/DriverType$2.class
 com/masteringselenium/BasicTestWD$3.class

@@ -20,6 +20,11 @@
         <org.testng.version>6.9.10</org.testng.version>
         <threads>1</threads>
         <browser>firefox</browser>
+        <overwrite.binaries>false</overwrite.binaries>
+        <remote>false</remote>
+        <seleniumGridURL/>
+        <platform/>
+        <browserVersion/>
     </properties>
 
 
@@ -34,7 +39,14 @@
                     <threadCount>${threads}</threadCount>
                     <systemProperties>
                         <browser>${browser}</browser>
+                        <remoteDriver>${remote}</remoteDriver>
+                        <gridURL>${seleniumGridURL}</gridURL>
+                        <desiredPlatform>${platform}</desiredPlatform>
+                        <desiredBrowserVersion>${browserVersion}</desiredBrowserVersion>
                     </systemProperties>
+
+
+
                     <includes>
                         <include>**/*WD.java</include>
                     </includes>
@@ -54,27 +66,27 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <groupId>org.codehaus.mojo</groupId>
                 <executions>
-                    <execution>
-                        <id>Start Docker</id>
-                        <phase>pre-integration-test</phase>
-                        <goals>
-                            <goal>exec</goal>
-                        </goals>
-                        <configuration>
-                            <executable>${project.build.scriptSourceDirectory}/startDockerContainers.sh</executable>
-                        </configuration>
-                    </execution>
+                    <!--<execution>-->
+                        <!--<id>Start Docker</id>-->
+                        <!--<phase>pre-integration-test</phase>-->
+                        <!--<goals>-->
+                            <!--<goal>exec</goal>-->
+                        <!--</goals>-->
+                        <!--<configuration>-->
+                            <!--<executable>${project.build.scriptSourceDirectory}/startDockerContainers.sh</executable>-->
+                        <!--</configuration>-->
+                    <!--</execution>-->
 
-                    <execution>
-                        <id>Stop Docker</id>
-                        <phase>post-integration-test</phase>
-                        <goals>
-                            <goal>exec</goal>
-                        </goals>
-                        <configuration>
-                            <executable>${project.build.scriptSourceDirectory}/stopDockerContainers.sh</executable>
-                        </configuration>
-                    </execution>
+                    <!--<execution>-->
+                        <!--<id>Stop Docker</id>-->
+                        <!--<phase>post-integration-test</phase>-->
+                        <!--<goals>-->
+                            <!--<goal>exec</goal>-->
+                        <!--</goals>-->
+                        <!--<configuration>-->
+                            <!--<executable>${project.build.scriptSourceDirectory}/stopDockerContainers.sh</executable>-->
+                        <!--</configuration>-->
+                    <!--</execution>-->
 
                 </executions>
             </plugin>

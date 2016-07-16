@@ -12,3 +12,4 @@ do
 done
 echo " "
 echo "Connected to grid successfully"
+sleep 2m
