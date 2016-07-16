@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="21334" started-at="2016-07-16T13:39:47Z" finished-at="2016-07-16T13:40:09Z">
+  <suite name="Surefire suite" duration-ms="14654" started-at="2016-07-16T13:48:13Z" finished-at="2016-07-16T13:48:28Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="21334" started-at="2016-07-16T13:39:47Z" finished-at="2016-07-16T13:40:09Z">
+    <test name="Surefire test" duration-ms="14654" started-at="2016-07-16T13:48:13Z" finished-at="2016-07-16T13:48:28Z">
       <class name="com.masteringselenium.BasicTestWD">
-        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="instantiateDriverObject" is-config="true" duration-ms="17" started-at="2016-07-16T19:09:47Z" finished-at="2016-07-16T19:09:47Z">
+        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="instantiateDriverObject" is-config="true" duration-ms="10" started-at="2016-07-16T19:18:13Z" finished-at="2016-07-16T19:18:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- instantiateDriverObject -->
-        <test-method status="PASS" signature="googleButterExample()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="googleButterExample" duration-ms="11557" started-at="2016-07-16T19:09:47Z" finished-at="2016-07-16T19:09:59Z">
+        <test-method status="PASS" signature="googleButterExample()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="googleButterExample" duration-ms="6874" started-at="2016-07-16T19:18:13Z" finished-at="2016-07-16T19:18:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleButterExample -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="quitDriver" is-config="true" duration-ms="59" started-at="2016-07-16T19:09:59Z" finished-at="2016-07-16T19:09:59Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="quitDriver" is-config="true" duration-ms="11" started-at="2016-07-16T19:18:20Z" finished-at="2016-07-16T19:18:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method status="PASS" signature="googleCheezeExample()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="googleCheezeExample" duration-ms="2894" started-at="2016-07-16T19:09:59Z" finished-at="2016-07-16T19:10:02Z">
+        <test-method status="PASS" signature="googleCheezeExample()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="googleCheezeExample" duration-ms="2551" started-at="2016-07-16T19:18:20Z" finished-at="2016-07-16T19:18:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleCheezeExample -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="quitDriver" is-config="true" duration-ms="30" started-at="2016-07-16T19:10:02Z" finished-at="2016-07-16T19:10:02Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="quitDriver" is-config="true" duration-ms="5" started-at="2016-07-16T19:18:23Z" finished-at="2016-07-16T19:18:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method status="PASS" signature="googleClickHindiExample()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="googleClickHindiExample" duration-ms="4189" started-at="2016-07-16T19:10:02Z" finished-at="2016-07-16T19:10:06Z">
+        <test-method status="PASS" signature="googleClickHindiExample()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="googleClickHindiExample" duration-ms="3229" started-at="2016-07-16T19:18:23Z" finished-at="2016-07-16T19:18:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleClickHindiExample -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="quitDriver" is-config="true" duration-ms="45" started-at="2016-07-16T19:10:06Z" finished-at="2016-07-16T19:10:06Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="quitDriver" is-config="true" duration-ms="7" started-at="2016-07-16T19:18:26Z" finished-at="2016-07-16T19:18:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method status="PASS" signature="googleMilkExample()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="googleMilkExample" duration-ms="2501" started-at="2016-07-16T19:10:06Z" finished-at="2016-07-16T19:10:09Z">
+        <test-method status="PASS" signature="googleMilkExample()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="googleMilkExample" duration-ms="1955" started-at="2016-07-16T19:18:26Z" finished-at="2016-07-16T19:18:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleMilkExample -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="quitDriver" is-config="true" duration-ms="34" started-at="2016-07-16T19:10:09Z" finished-at="2016-07-16T19:10:09Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="quitDriver" is-config="true" duration-ms="10" started-at="2016-07-16T19:18:28Z" finished-at="2016-07-16T19:18:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="closeDriverObjects" is-config="true" duration-ms="119" started-at="2016-07-16T19:10:09Z" finished-at="2016-07-16T19:10:09Z">
+        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:com.masteringselenium.BasicTestWD@7a5d012c]" name="closeDriverObjects" is-config="true" duration-ms="155" started-at="2016-07-16T19:18:28Z" finished-at="2016-07-16T19:18:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriverObjects -->
